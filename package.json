@@ -5,12 +5,25 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "gulp build:dev",
+    "build:prod": "gulp build:prod",
+    "watch": "gulp watch",
     "server": "lite-server"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "del": "2.2.2",
+    "gulp": "3.9.1",
+    "gulp-clean-css": "3.0.4",
+    "gulp-concat": "2.6.1",
+    "gulp-copy": "1.0.0",
+    "gulp-minify": "0.0.15",
+    "gulp-sourcemaps": "2.6.0",
+    "gulp-uglify": "2.1.2",
+    "gulp-uglifycss": "1.0.8",
+    "lite-server": "2.3.0",
+    "run-sequence": "1.2.2"
   },
   "homepage": "http://jsmeasure-es5.surge.sh"
 }
