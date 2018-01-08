@@ -11,5 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0"
-  }
+  },
+  "homepage": "http://jsmeasure-es5.surge.sh"
 }
