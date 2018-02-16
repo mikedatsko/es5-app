@@ -1,6 +1,6 @@
 
 function App() {
-  window.parent.postMessage('FRAME_LOADED','https://jsmeasure.herokuapp.com');
+  window.parent.postMessage('FRAME_LOADED','http://jsmeasure.surge.sh');
   // var todos = data.read('todos');
   var todos = [];
 
