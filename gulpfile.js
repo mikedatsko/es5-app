@@ -73,5 +73,5 @@ gulp.task('build:dev', callback => {
 });
 
 gulp.task('watch', ['build:dev'], () => {
-  gulp.watch('./js/**/*.js', ['build:dev']);
+  gulp.watch('./src/**/*.js', ['build:dev']);
 });

@@ -14,5 +14,12 @@
   </div>
 
   <script src="dist/app.js"></script>
+
+  <script>
+    window.addEventListener('message', function(e) {
+      // var message = e.data;
+      console.log('iframe message', e.data)
+    })
+  </script>
 </body>
 </html>
